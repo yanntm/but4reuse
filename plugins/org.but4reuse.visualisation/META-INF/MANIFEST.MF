@@ -9,8 +9,9 @@ Require-Bundle: org.eclipse.ui,
  org.but4reuse.utils,
  org.eclipse.contribution.visualiser,
  org.but4reuse.adapters,
- org.eclipse.gmf.runtime.common.core,
- org.but4reuse.feature.constraints
+ org.but4reuse.feature.constraints,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Export-Package: org.but4reuse.visualisation,
